@@ -1,2 +1,10 @@
 # Code-samples-and-games
-A collection of Roblox gameplay scripts and systems created by me.  Portfolio of Luau scripts showcasing procedural generation, AI, GUIs, and player mechanics.  Roblox projects and code samples demonstrating gameplay systems, modular design, and scripting skills.
+A collection of Roblox gameplay scripts and systems created by me.
+
+Game links,
+
+Pizza Shop System:
+https://www.roblox.com/games/90723468747211/Wait-to-buy-a-Pizza
+
+Random Scripts I've Made:
+https://www.roblox.com/games/99253188593750/My-Scripts
