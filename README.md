@@ -1,5 +1,5 @@
 # Code-samples-and-games
-A collection of Roblox gameplay scripts and systems created by me.
+A collection of Roblox gameplay scripts and systems created by me. All the code can be found inside each folder correlating to the games listed bellow.
 
 Game links,
 
