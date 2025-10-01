@@ -7,7 +7,7 @@ local debounce = false
 
 ------Settings------
 local setJump = 75 --Controls how fast the players speed is after they stand on the speed pad.
-local speedTime = 5 --Controls how long the speed will last for, Set to -1 to never revoke the speed.
+local jumpPTime = 5 --Controls how long the jump power will last for, Set to -1 to never revoke the jump power.
 local cameraEffects = true --Set to true to enable the effects.
 
 jumpPad.Touched:Connect(function(hit)
@@ -20,12 +20,12 @@ jumpPad.Touched:Connect(function(hit)
 		humanoid.UseJumpPower = true
 		humanoid.JumpPower = setJump
 		jumpPad.Color = Color3.new(0.0196078, 0.32549, 0.490196)
-		FOV:FireClient(player, speedTime, cameraEffects)
+		FOV:FireClient(player, jumpPTime, cameraEffects)
 		print("JumpPower given!")
-		if speedTime < 0 then
+		if jumpPTime < 0 then
 			return
 		else
-			task.wait(speedTime)
+			task.wait(jumpPTime)
 			humanoid.JumpPower = 50
 			debounce = false
 			jumpPad.Color = Color3.new(0.0352941, 0.537255, 0.811765)
